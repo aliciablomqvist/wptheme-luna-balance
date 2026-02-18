@@ -1,0 +1,25 @@
+{
+  "name": "luna-balance-theme",
+  "version": "1.0.0",
+  "description": "Yoga studio WordPress theme",
+  "scripts": {
+    "format:css": "prettier --write \"**/*.css\"",
+    "format:js": "prettier --write \"**/*.js\"",
+    "format:json": "prettier --write \"**/*.json\"",
+    "format": "npm run format:css && npm run format:js && npm run format:json",
+    "clean:logs": "grep -r \"console.log\" assets/js 2>/dev/null || echo \"No console.logs \"",
+    "clean:php": "echo \"PHP files cleans manually\"",
+    "clean": "npm run format && npm run clean:logs && npm run clean:php && echo \"\n Themed cleaned!\"",
+    "portfolio": "npm run clean"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "yoga"
+  ],
+  "author": "Alicia Blomqvist",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

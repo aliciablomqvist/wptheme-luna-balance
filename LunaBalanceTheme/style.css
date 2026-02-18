@@ -1,0 +1,11 @@
+/*
+Theme Name: Luna Balance
+Author: Alicia
+Description: Yoga studio theme
+Version: 1.0
+*/
+:root {
+  --wp--preset--color--sage: #a8b5a1;
+  --wp--preset--color--base: #f5f5f5;
+  --wp--preset--color--contrast: #2c2c2c;
+}
